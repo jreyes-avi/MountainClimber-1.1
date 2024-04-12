@@ -58,3 +58,12 @@ else
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+//Extra Jump Collision
+if ((place_meeting(x + hsp, y, oExtraJump)) and (place_meeting(x, y + vsp, oExtraJump))){
+	if (collect){
+		oExtraJump.image_alpha = 0.3;
+		collect = false;
+		currjumps -= 1;
+	}
+}
