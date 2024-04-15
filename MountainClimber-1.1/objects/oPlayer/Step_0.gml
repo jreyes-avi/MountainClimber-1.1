@@ -61,9 +61,18 @@ if (hsp != 0) image_xscale = sign(hsp);
 
 //Extra Jump Collision
 if ((place_meeting(x + hsp, y, oExtraJump)) and (place_meeting(x, y + vsp, oExtraJump))){
-	if (collect){
+	if (jCollect){
 		oExtraJump.image_alpha = 0.3;
-		collect = false;
+		jCollect = false;
 		currjumps -= 1;
+	}
+}
+
+//Dash Collision
+if ((place_meeting(x + hsp, y, oDash)) and (place_meeting(x, y + vsp, oDash))){
+	if (dCollect){
+		oDash.image_alpha = 0.3;
+		dCollect = false;
+		walksp = walksp * 2;
 	}
 }

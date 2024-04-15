@@ -1,6 +1,7 @@
 /// @description Tigger Room Restart
 
-if(bbox_bottom-100 > room_height){
+if(bbox_bottom > room_height){
+	oControl.alarm[0] = alarm[0] = game_get_speed(gamespeed_fps);
 	instance_destroy();
-	oControl.alarm[0] = game_get_speed(gamespeed_fps);
+	global.alive = false;
 }

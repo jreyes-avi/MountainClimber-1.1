@@ -1,0 +1,4 @@
+if (image_alpha < 1 and trigger){
+	alarm[0] = 4 * game_get_speed(gamespeed_fps);
+	trigger = false;
+}
