@@ -76,3 +76,7 @@ if ((place_meeting(x + hsp, y, oDash)) and (place_meeting(x, y + vsp, oDash))){
 		walksp = walksp * 2;
 	}
 }
+//Win Collison
+if ((place_meeting(x + hsp, y, oWin)) and (place_meeting(x, y + vsp, oWin))){
+	room_goto_next();
+}

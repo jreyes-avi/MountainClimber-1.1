@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Win",
+  "%Name":"oWin",
   "eventList":[],
   "managed":true,
-  "name":"Win",
+  "name":"oWin",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

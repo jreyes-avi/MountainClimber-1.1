@@ -1,6 +1,6 @@
 hsp = 0;
 vsp = 0;
-grv = 0.26;
+grv = 0.24;
 walksp = 8;
 start_walksp = 8
 jumpsp = 9;

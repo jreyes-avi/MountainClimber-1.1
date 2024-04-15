@@ -39,7 +39,7 @@
     {"id":{"name":"oExtraJump","path":"objects/oExtraJump/oExtraJump.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
-    {"id":{"name":"Win","path":"objects/Win/Win.yy",},},
+    {"id":{"name":"oWin","path":"objects/oWin/oWin.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
