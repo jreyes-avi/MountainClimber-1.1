@@ -80,3 +80,84 @@ if ((place_meeting(x + hsp, y, oDash)) and (place_meeting(x, y + vsp, oDash))){
 if ((place_meeting(x + hsp, y, oWin)) and (place_meeting(x, y + vsp, oWin))){
 	room_goto_next();
 }
+
+//Crumbling Floor Collisons
+if (place_meeting(x,y + vsp, oCrumble) and not oCrumble.alarms){
+	oCrumble.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble2) and not oCrumble2.alarms){
+	oCrumble2.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble2.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble3) and not oCrumble3.alarms){
+	oCrumble3.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble3.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble4) and not oCrumble4.alarms){
+	oCrumble4.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble4.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble5) and not oCrumble5.alarms){
+	oCrumble5.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble5.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble6) and not oCrumble6.alarms){
+	oCrumble6.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble6.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble7) and not oCrumble7.alarms){
+	oCrumble7.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble7.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble8) and not oCrumble8.alarms){
+	oCrumble8.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble8.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble9) and not oCrumble9.alarms){
+	oCrumble9.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble9.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble10) and not oCrumble10.alarms){
+	oCrumble10.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble10.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble11) and not oCrumble11.alarms){
+	oCrumble11.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble11.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble12) and not oCrumble12.alarms){
+	oCrumble12.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble12.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble13) and not oCrumble13.alarms){
+	oCrumble13.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble13.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble14) and not oCrumble14.alarms){
+	oCrumble14.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble14.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble15) and not oCrumble15.alarms){
+	oCrumble15.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble15.alarms = true;
+}
+
+if (place_meeting(x,y + vsp, oCrumble16) and not oCrumble16.alarms){
+	oCrumble16.alarm[0] = 3 * game_get_speed(gamespeed_fps);
+	oCrumble16.alarms = true;
+}
