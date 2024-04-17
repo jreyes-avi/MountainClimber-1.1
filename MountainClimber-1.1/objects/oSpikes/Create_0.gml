@@ -1,0 +1,2 @@
+change = true;
+death = false;
