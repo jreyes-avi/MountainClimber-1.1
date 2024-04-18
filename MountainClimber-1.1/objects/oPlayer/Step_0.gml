@@ -83,8 +83,6 @@ if ((place_meeting(x + hsp, y, oWin)) and (place_meeting(x, y + vsp, oWin))){
 
 //SpikeFloor Collision
 if ((place_meeting(x + hsp, y, oSpikes)) and (place_meeting(x, y + vsp, oSpikes))){
-	if(oSpikes.death){
 		global.alive = false;
 		instance_destroy();
-	}
 }
