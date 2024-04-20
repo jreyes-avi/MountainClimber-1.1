@@ -40,7 +40,7 @@ y = y + vsp;
 ///Animation
 if (!place_meeting(x,y+1,oWall))
 {
-	sprite_index = sPlayerA_D;
+	sprite_index = sPlayerGirlA_D;
 	image_speed = 1;
 	if (vsp > 0 ) image_index = 1; else image_index = 0;
 	
@@ -50,10 +50,10 @@ else
 	image_speed = 1;
 	if(hsp == 0)
 	{
-		sprite_index = sPlayer;
+		sprite_index = sPlayerGirl;
 	}
 	else{
-		sprite_index = sPlayerR;
+		sprite_index = sPlayerGirlR;
 	}
 }
 

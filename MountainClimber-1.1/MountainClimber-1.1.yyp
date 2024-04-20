@@ -88,7 +88,7 @@
     {"id":{"name":"sPlayerGirl","path":"sprites/sPlayerGirl/sPlayerGirl.yy",},},
     {"id":{"name":"sPlayerGirlA_D","path":"sprites/sPlayerGirlA_D/sPlayerGirlA_D.yy",},},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},},
-    {"id":{"name":"sPLayerGirlR","path":"sprites/sPLayerGirlR/sPLayerGirlR.yy",},},
+    {"id":{"name":"sPlayerGirlR","path":"sprites/sPlayerGirlR/sPlayerGirlR.yy",},},
     {"id":{"name":"sRightAirGround","path":"sprites/sRightAirGround/sRightAirGround.yy",},},
     {"id":{"name":"sRightGround","path":"sprites/sRightGround/sRightGround.yy",},},
     {"id":{"name":"sRock","path":"sprites/sRock/sRock.yy",},},

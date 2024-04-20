@@ -65,7 +65,7 @@
     {"name":"sPlayerA_D","order":6,"path":"sprites/sPlayerA_D/sPlayerA_D.yy",},
     {"name":"sPlayerGirlA_D","order":1,"path":"sprites/sPlayerGirlA_D/sPlayerGirlA_D.yy",},
     {"name":"sPlayerR","order":7,"path":"sprites/sPlayerR/sPlayerR.yy",},
-    {"name":"sPLayerGirlR","order":2,"path":"sprites/sPLayerGirlR/sPLayerGirlR.yy",},
+    {"name":"sPlayerGirlR","order":2,"path":"sprites/sPlayerGirlR/sPlayerGirlR.yy",},
     {"name":"sRightAirGround","order":2,"path":"sprites/sRightAirGround/sRightAirGround.yy",},
     {"name":"sRightGround","order":2,"path":"sprites/sRightGround/sRightGround.yy",},
     {"name":"sRock","order":33,"path":"sprites/sRock/sRock.yy",},
