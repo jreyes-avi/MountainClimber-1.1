@@ -1,6 +1,8 @@
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
+global.xpos = x;
+global.ypos = y;
 
 var _move = key_right - key_left;
  
@@ -85,4 +87,7 @@ if ((place_meeting(x + hsp, y, oWin)) and (place_meeting(x, y + vsp, oWin))){
 if ((place_meeting(x + hsp, y, oSpikes)) and (place_meeting(x, y + vsp, oSpikes))){
 		global.alive = false;
 		instance_destroy();
+}
+if(room == EndScreen){
+	instance_destroy();
 }
