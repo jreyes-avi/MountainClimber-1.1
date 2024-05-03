@@ -1,6 +1,5 @@
 if (global.alive){
-	oPlayer.jCollect = true;
 	show_debug_message("ready");
 	image_alpha = 1;
-	trigger = true;
+	alarm[1] = game_get_speed(gamespeed_fps) * 0.5;
 }
